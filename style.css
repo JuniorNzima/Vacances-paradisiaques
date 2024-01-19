@@ -1,0 +1,535 @@
+@font-face
+{
+    font-family : "rajdhani" ;
+    src : url("police/rajdhani/Rajdhani-Regular.ttf") ;
+}
+
+@font-face
+{
+    font-family : "dancing" ;
+    src : url("police/dancing/static/DancingScript-Regular.ttf") ;
+}
+
+*
+{
+    margin : 0 ;
+    padding : 0 ;
+}
+
+body
+{
+    font-family : rajdhani , sans-serif ;
+}
+
+h1
+{
+    font-family : dancing ;
+}
+
+h2
+{
+    font-family : rajdhani , sans-serif ;
+    text-transform : uppercase ;
+    text-align : center ;
+    font-size : 2.5em ;
+}
+
+h3
+{
+    font-family : dancing , sans-serif ;
+    font-weight : normal ;
+    text-align : center ;
+    font-size : 1.8em ;
+}
+
+
+
+/* ********************************************************* HEADER ************************************************************ */
+
+header
+{
+    /* border : 1px solid red ; */
+    width : 100% ;
+    background-color : #fffae1 ;
+    position : fixed ;
+}
+
+#div_header
+{
+    width : 90% ;
+    margin : auto ;
+    display : flex ;
+    justify-content : space-between ;
+    align-items : center ;
+    padding : 10px ;
+}
+
+nav 
+{
+    width : 30% ;
+}
+
+nav ul
+{
+    display : flex ;
+    justify-content : space-between ;
+}
+
+nav ul li
+{
+    list-style-type : none ;
+}
+
+nav ul a
+{
+    text-decoration : none ;
+    color : black ;
+}
+
+
+
+/* ************************************************** HERO_HEADER ************************************************************* */
+
+#hero_header video
+{
+    width : 100% ;
+}
+
+
+/* ************************************************** Main ************************************************************* */
+
+
+#presentation
+{
+    background-color : #fffae1 ;
+}
+
+#diapo_texte
+{
+    width : 80% ;
+    margin : auto ;
+    display : flex ;
+    justify-content : space-between ;
+    align-items : center ;
+}
+
+#diapo
+{
+    width : 60% ;
+    height : 450px ;
+    border-radius : 10px ;
+    
+    -webkit-animation-name: diaporama ;
+    -webkit-animation-duration: 20s ;
+    -webkit-animation-timing-function : linear ;
+    -webkit-animation-iteration-count: infinite ;
+    -webkit-animation-direction: normal ;
+
+    -moz-animation-name: diaporama ;
+    -moz-animation-duration: 20s ;
+    -moz-animation-timing-function : linear ;
+    -moz-animation-iteration-count: infinite ;
+    -moz-animation-direction: normal ;
+
+    -o-animation-name: diaporama ;
+    -o-animation-duration: 20s ;
+    -o-animation-timing-function : linear ;
+    -o-animation-iteration-count: infinite ;
+    -o-animation-direction: normal ;
+
+    animation-name: diaporama ;
+    animation-duration: 20s ;
+    animation-timing-function : linear ;
+    animation-iteration-count: infinite ;
+    animation-direction: normal ;
+}
+
+@-webkit-keyframes diaporama
+{
+    0%
+    {
+        background-image : url("image/asian-young-happy-family-enjoy-vacation-beach-evening-dad-mom-kid-relax-running-together-near-sea-while-silhouette-sunset-lifestyle-travel-holiday-vacation-summer-concept.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : cover ;
+    }
+
+    25%
+    {
+        background-image : url("image/black-family-having-fun-beach.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : cover ;
+    }
+
+    50%
+    {
+        background-image : url("image/best-friends-spending-some-quality-time-together.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : cover ;
+    }
+
+    75%
+    {
+        background-image : url("image/blue-umbrella-sea-chairs-sky.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : cover ;
+    }
+
+    100%
+    {
+        background-image : url("image/umbrella-chair-beautiful-beach-sea-sunrise-time-travel-vacation.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : cover ;
+    }
+}
+
+@-moz-keyframes diaporama
+{
+    0%
+    {
+        background-image : url("image/asian-young-happy-family-enjoy-vacation-beach-evening-dad-mom-kid-relax-running-together-near-sea-while-silhouette-sunset-lifestyle-travel-holiday-vacation-summer-concept.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : cover ;
+    }
+
+    25%
+    {
+        background-image : url("image/black-family-having-fun-beach.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : cover ;
+    }
+
+    50%
+    {
+        background-image : url("image/best-friends-spending-some-quality-time-together.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : cover ;
+    }
+
+    75%
+    {
+        background-image : url("image/blue-umbrella-sea-chairs-sky.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : cover ;
+    }
+
+    100%
+    {
+        background-image : url("image/umbrella-chair-beautiful-beach-sea-sunrise-time-travel-vacation.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : cover ;
+    }
+}
+
+@-o-keyframes diaporama
+{
+    0%
+    {
+        background-image : url("image/asian-young-happy-family-enjoy-vacation-beach-evening-dad-mom-kid-relax-running-together-near-sea-while-silhouette-sunset-lifestyle-travel-holiday-vacation-summer-concept.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : cover ;
+    }
+
+    25%
+    {
+        background-image : url("image/black-family-having-fun-beach.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : cover ;
+    }
+
+    50%
+    {
+        background-image : url("image/best-friends-spending-some-quality-time-together.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : cover ;
+    }
+
+    75%
+    {
+        background-image : url("image/blue-umbrella-sea-chairs-sky.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : cover ;
+    }
+
+    100%
+    {
+        background-image : url("image/umbrella-chair-beautiful-beach-sea-sunrise-time-travel-vacation.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : cover ;
+    }
+}
+
+@keyframes diaporama
+{
+    0%
+    {
+        background-image : url("image/asian-young-happy-family-enjoy-vacation-beach-evening-dad-mom-kid-relax-running-together-near-sea-while-silhouette-sunset-lifestyle-travel-holiday-vacation-summer-concept.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : cover ;
+    }
+
+    25%
+    {
+        background-image : url("image/black-family-having-fun-beach.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : cover ;
+    }
+
+    50%
+    {
+        background-image : url("image/best-friends-spending-some-quality-time-together.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : cover ;
+    }
+
+    75%
+    {
+        background-image : url("image/blue-umbrella-sea-chairs-sky.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : cover ;
+    }
+
+    100%
+    {
+        background-image : url("image/umbrella-chair-beautiful-beach-sea-sunrise-time-travel-vacation.jpg") ;
+        background-repeat : no-repeat ;
+        background-size : cover ;
+    }
+}
+
+#diapo_texte p
+{
+    width : 35% ;
+}
+
+#services
+{
+    display : flex ;
+    justify-content : space-evenly ;
+    flex-wrap : wrap ;
+}
+
+#services div
+{
+    width : 250px ;
+    height : 250px ;
+}
+
+#services div img
+{
+    width : 100% ;
+    height : 100% ;
+    filter: grayscale(100%);
+    border-radius : 10px ;
+    transition : filter 0.5s ease-in-out ;
+}
+
+#services div img:hover
+{
+    filter: grayscale(0%);
+}
+
+
+
+/**************************************************** SECTION A DECOUVRIR *********************************************************/
+
+
+
+#decouvrir
+{
+    background-color : #f1f2f6 ;
+}
+
+#decouvrir .div_survol
+{
+    width : 80% ;
+    margin : auto ;
+    height : 300px ;
+    display : flex ;
+    justify-content : space-between ;
+    align-items : center ;
+}
+
+#decouvrir .div_survol p
+{
+    width : 30% ;
+    visibility : hidden ;
+    transition-property : visibility ;
+    transition-duration: 5s ;
+    transition-timing-function: ease-in-out ;
+    transition-delay: 0.2s ;
+}
+
+.div2 , .div4
+{
+    flex-direction : row-reverse ;
+}
+
+.div1:hover #p1
+{
+    visibility : visible ;
+}
+
+.div2:hover #p2
+{
+    visibility : visible ;
+}
+
+.div3:hover #p3
+{
+    visibility : visible ;
+}
+
+.div4:hover #p4
+{
+    visibility : visible ;
+}
+
+#ocean
+{
+    background-image : url("image/tropical-beach-sea.jpg") ;
+    background-repeat : no-repeat ;
+    background-size : cover ;
+    width : 60% ;
+    height : 100% ;
+    box-shadow : 6px 6px 28px rgba(0,0,0,0.75) ;
+    border-radius : 10px ;
+}
+
+#medoc
+{
+    background-image : url("image/chateau.JPG") ;
+    background-repeat : no-repeat ;
+    background-size : cover ;
+    width : 60% ;
+    height : 100% ;
+    box-shadow : 6px 6px 28px rgba(0,0,0,0.75) ;
+    border-radius : 10px ;
+}
+
+#gironde
+{
+    background-image : url("image/phare.JPG") ;
+    background-repeat : no-repeat ;
+    background-size : cover ;
+    width : 60% ;
+    height : 100% ;
+    box-shadow : 6px 6px 28px rgba(0,0,0,0.75) ;
+    border-radius : 10px ;
+}
+
+#bordelais
+{
+    background-image : url("image/vignes.jpg") ;
+    background-repeat : no-repeat ;
+    background-size : cover ;
+    width : 60% ;
+    height : 100% ;
+    box-shadow : 6px 6px 28px rgba(0,0,0,0.75) ;
+    border-radius : 10px ;
+}
+
+h4
+{
+    margin-top : 20px ;
+    padding : 2% 3% ;
+}
+
+.right
+{
+    float : right ;
+    margin-right : -120px ;
+    background-color : rgb(4, 197, 251) ;
+    box-shadow : 4px 4px 0 rgba(0,0,255,0.8) ;
+}
+
+.left
+{
+    float : left ;
+    margin-left : -140px ;
+    background-color : #01df74 ;
+    box-shadow: -4px 4px 0 rgba(90,161,43,1);
+}
+
+
+/* ************************************************** FOOTER ************************************************************* */
+
+
+footer
+{
+    background-color : #524a3a ;
+    color : white ;
+}
+
+form
+{
+    width : 40% ;
+    margin : auto ;
+    display : flex ;
+    flex-direction : column ;
+}
+
+input , textarea
+{
+    border : none ;
+    padding : 15px 10px ;
+    margin : 5px 0 ;
+    font-size : 1.2em ;
+    border-radius : 8px ;
+    outline : none ;
+    resize : none ;
+}
+
+textarea 
+{
+    height: 120px ;
+}
+
+#bouton_envoyer
+{
+    width : 30% ;
+    margin : 5px auto ;
+}
+
+#bouton_envoyer:hover
+{
+    background-color : #e55039 ;
+    color : #FFFAE1 ;
+    cursor : pointer ;
+    transition : 0.3s ease-in-out ;
+}
+
+#trait
+{
+    height : 1px ;
+    width : 75% ;
+    background-color : #FFFAE1 ;
+    margin : 60px auto ;
+}
+
+#copyright_et_icons
+{
+    display : flex ;
+    justify-content : space-between ;
+    width : 60% ;
+    margin : auto ;
+}
+
+#icons
+{
+    display : flex ;
+    justify-content : space-evenly ;
+    width : 50% ;
+}
+
+#icons a
+{
+    color : #FFFAE1 ;
+    font-size : 1.3em ;
+}
+
+#icons a:hover
+{
+    opacity : 0.5 ;
+    transform : scale(1.5) ;
+    transition : 0.2s ease-in-out ;
+}
